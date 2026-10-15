@@ -89,6 +89,7 @@
 ## ソースコード
 
 - The Go Authors. "crypto/tls". Go標準ライブラリ. https://cs.opensource.google/go/go/+/refs/tags/go1.26.6:src/crypto/tls/, (参照2026-08-17).
+- sat0ken. "go-tcpip". GitHub. https://github.com/sat0ken/go-tcpip.
 
 ## 図で使用したアイコン
 
