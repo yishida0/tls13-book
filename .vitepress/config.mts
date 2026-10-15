@@ -1,7 +1,37 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import footnote from "markdown-it-footnote";
 import { inlineSvg } from "./inlineSvg.ts";
+
+const siteUrl = "https://tls13-book.doteyaki.dev";
+
+function excerpt(file: string, maxLength = 120) {
+  const blocks = readFileSync(file, "utf-8")
+    .replace(/^---\n[\s\S]*?\n---\n/, "")
+    .split(/\n\s*\n/)
+    .map((p) => p.trim());
+  const isProse = (p?: string) =>
+    !!p && !/^(#|!|:::|\||>|```|<|\*|-|\d+\.|\[\^|\$\$)/.test(p);
+  const first = blocks.findIndex(isProse);
+  if (first < 0) return "";
+  const paragraphs = isProse(blocks[first + 1])
+    ? blocks.slice(first, first + 2)
+    : [blocks[first]];
+  const text = paragraphs
+    .join("\n")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+    .replace(/\[\^[^\]]+\]/g, "")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s*\n\s*/g, "");
+  if (text.length <= maxLength) return text;
+  const cut = text.slice(0, maxLength);
+  const end = cut.lastIndexOf("。");
+  return end > 0 ? cut.slice(0, end + 1) : `${cut.slice(0, maxLength - 1)}…`;
+}
 
 export default withMermaid(
   defineConfig({
@@ -9,12 +39,36 @@ export default withMermaid(
     lang: "ja-JP",
     title: "作って学ぶTLS 1.3",
     description: "Goでクライアントを実装しながら学ぶ",
+    cleanUrls: true,
+    lastUpdated: true,
+
+    sitemap: {
+      hostname: `${siteUrl}/`,
+    },
 
     head: [
       ["link", { rel: "icon", href: "/favicon.ico", sizes: "48x48" }],
       ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
       ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
+      ["meta", { property: "og:type", content: "website" }],
+      ["meta", { property: "og:site_name", content: "作って学ぶTLS 1.3" }],
+      ["meta", { property: "og:locale", content: "ja_JP" }],
+      ["meta", { property: "og:image", content: `${siteUrl}/apple-touch-icon.png` }],
+      ["meta", { name: "twitter:card", content: "summary" }],
     ],
+
+    transformPageData(pageData, { siteConfig }) {
+      const path = pageData.relativePath
+        .replace(/(^|\/)index\.md$/, "$1")
+        .replace(/\.md$/, "");
+      pageData.description ||= excerpt(join(siteConfig.srcDir, pageData.relativePath));
+      pageData.frontmatter.head ??= [];
+      pageData.frontmatter.head.push(
+        ["meta", { property: "og:title", content: pageData.title || siteConfig.site.title }],
+        ["meta", { property: "og:description", content: pageData.description || siteConfig.site.description }],
+        ["meta", { property: "og:url", content: `${siteUrl}/${path}` }],
+      );
+    },
 
     mermaid: {
       flowchart: { wrappingWidth: 400 },
@@ -165,6 +219,11 @@ export default withMermaid(
       docFooter: {
         prev: "前のページ",
         next: "次のページ",
+      },
+
+      lastUpdated: {
+        text: "最終更新日",
+        formatOptions: { dateStyle: "long" },
       },
 
       search: {
