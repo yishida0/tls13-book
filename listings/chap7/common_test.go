@@ -1,0 +1,122 @@
+package tls13
+
+import "testing"
+
+func TestCommonContentType(t *testing.T) {
+	tests := []struct {
+		name string
+		got  contentType
+		want uint8
+	}{
+		{"change_cipher_spec", contentTypeChangeCipherSpec, 20},
+		{"alert", contentTypeAlert, 21},
+		{"handshake", contentTypeHandshake, 22},
+		{"application_data", contentTypeApplicationData, 23},
+	}
+	for _, tt := range tests {
+		if uint8(tt.got) != tt.want {
+			t.Errorf("%s = %d, want %d", tt.name, tt.got, tt.want)
+		}
+	}
+}
+
+func TestCommonTLSVersion(t *testing.T) {
+	if tls_version_1_2 != 0x0303 {
+		t.Errorf("TLS_VERSION_1_2 = %#04x, want 0x0303", uint16(tls_version_1_2))
+	}
+	if tls_version_1_3 != 0x0304 {
+		t.Errorf("TLS_VERSION_1_3 = %#04x, want 0x0304", uint16(tls_version_1_3))
+	}
+}
+
+func TestCommonHandshakeType(t *testing.T) {
+	tests := []struct {
+		name string
+		got  handshakeType
+		want uint8
+	}{
+		{"client_hello", typeClientHello, 1},
+		{"server_hello", typeServerHello, 2},
+		{"encrypted_extensions", typeEncryptedExtensions, 8},
+		{"certificate", typeCertificate, 11},
+		{"certificate_verify", typeCertificateVerify, 15},
+		{"finished", typeFinished, 20},
+	}
+	for _, tt := range tests {
+		if uint8(tt.got) != tt.want {
+			t.Errorf("%s = %d, want %d", tt.name, tt.got, tt.want)
+		}
+	}
+}
+
+func TestCommonMaxPayloadLen(t *testing.T) {
+	if maxPayloadLen != 16640 {
+		t.Errorf("MaxPayloadLen = %d, want 16640 (2^14 + 256)", maxPayloadLen)
+	}
+}
+
+func TestCommonCipherSuite(t *testing.T) {
+	if tls_aes_128_gcm_sha256 != 0x1301 {
+		t.Errorf("TLS_AES_128_GCM_SHA256 = %#04x, want 0x1301", uint16(tls_aes_128_gcm_sha256))
+	}
+}
+
+func TestCommonExtensionType(t *testing.T) {
+	tests := []struct {
+		name string
+		got  extensionType
+		want uint16
+	}{
+		{"server_name", extServerName, 0},
+		{"supported_groups", extSupportedGroups, 10},
+		{"signature_algorithms", extSignatureAlgorithms, 13},
+		{"supported_versions", extSupportedVersions, 43},
+		{"key_share", extKeyShare, 51},
+	}
+	for _, tt := range tests {
+		if uint16(tt.got) != tt.want {
+			t.Errorf("%s = %d, want %d", tt.name, tt.got, tt.want)
+		}
+	}
+}
+
+func TestCommonNamedGroup(t *testing.T) {
+	if x25519 != 0x001d {
+		t.Errorf("X25519 = %#04x, want 0x001d", uint16(x25519))
+	}
+}
+
+func TestCommonSignatureScheme(t *testing.T) {
+	tests := []struct {
+		name string
+		got  signatureScheme
+		want uint16
+	}{
+		{"rsa_pkcs1_sha256", rsa_pkcs1_sha256, 0x0401},
+		{"ecdsa_secp256r1_sha256", ecdsa_secp256r1_sha256, 0x0403},
+		{"ecdsa_secp384r1_sha384", ecdsa_secp384r1_sha384, 0x0503},
+		{"rsa_pss_rsae_sha256", rsa_pss_rsae_sha256, 0x0804},
+		{"rsa_pss_rsae_sha384", rsa_pss_rsae_sha384, 0x0805},
+		{"rsa_pss_rsae_sha512", rsa_pss_rsae_sha512, 0x0806},
+	}
+	for _, tt := range tests {
+		if uint16(tt.got) != tt.want {
+			t.Errorf("%s = %#04x, want %#04x", tt.name, uint16(tt.got), tt.want)
+		}
+	}
+}
+
+func TestCommonAlert(t *testing.T) {
+	if closeNotify != 0 {
+		t.Errorf("CloseNotify = %d, want 0", closeNotify)
+	}
+	if alertLevelWarning != 1 {
+		t.Errorf("AlertLevelWarning = %d, want 1", alertLevelWarning)
+	}
+}
+
+func TestCommonMaxPlaintextLen(t *testing.T) {
+	if maxPlaintextLen != 16384 {
+		t.Errorf("MaxPlaintextLen = %d, want 16384 (2^14)", maxPlaintextLen)
+	}
+}

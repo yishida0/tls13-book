@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 248" width="780" height="248" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="248" fill="#ffffff"/>
+  <rect x="152.0" y="8" width="117.6" height="40" fill="#ffffff" stroke="#999999"/>
+  <text x="210.8" y="33.0" fill="#333333" text-anchor="middle">HTTP</text>
+  <rect x="277.6" y="8" width="117.6" height="40" fill="#ffffff" stroke="#999999"/>
+  <text x="336.4" y="33.0" fill="#333333" text-anchor="middle">SMTP</text>
+  <rect x="403.2" y="8" width="117.6" height="40" fill="#ffffff" stroke="#999999"/>
+  <text x="462.0" y="33.0" fill="#333333" text-anchor="middle">IMAP</text>
+  <rect x="528.8" y="8" width="117.6" height="40" fill="#ffffff" stroke="#999999"/>
+  <text x="587.6" y="33.0" fill="#333333" text-anchor="middle">FTP</text>
+  <rect x="654.4" y="8" width="117.6" height="40" fill="#ffffff" stroke="#999999"/>
+  <text x="713.2" y="33.0" fill="#333333" text-anchor="middle">その他</text>
+  <rect x="152.0" y="96" width="149.0" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="226.5" y="116.0" fill="#333333" text-anchor="middle">Handshake</text>
+  <text x="226.5" y="134.0" fill="#333333" text-anchor="middle">Protocol</text>
+  <rect x="309.0" y="96" width="149.0" height="48" fill="#f3f3f3" stroke="#999999" stroke-dasharray="4 3"/>
+  <text x="383.5" y="116.0" fill="#777777" text-anchor="middle">ChangeCipherSpec</text>
+  <text x="383.5" y="134.0" fill="#777777" text-anchor="middle">（互換性のため）</text>
+  <rect x="466.0" y="96" width="149.0" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="540.5" y="116.0" fill="#333333" text-anchor="middle">Alert</text>
+  <text x="540.5" y="134.0" fill="#333333" text-anchor="middle">Protocol</text>
+  <rect x="623.0" y="96" width="149.0" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="697.5" y="116.0" fill="#333333" text-anchor="middle">Application</text>
+  <text x="697.5" y="134.0" fill="#333333" text-anchor="middle">Data</text>
+  <rect x="152.0" y="152" width="620.0" height="40" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="462.0" y="177.0" fill="#333333" text-anchor="middle">TLS Record Protocol</text>
+  <rect x="152.0" y="200" width="620.0" height="40" fill="#f3f3f3" stroke="#999999"/>
+  <text x="462.0" y="225.0" fill="#333333" text-anchor="middle">TCP</text>
+  <path d="M 623.0 96 L 152 48 M 772 96 L 772 48" fill="none" stroke="#888888" stroke-dasharray="5 4"/>
+  <path d="M 146 8 H 140 V 48 H 146" fill="none" stroke="#999999"/>
+  <text x="134" y="33.0" fill="#333333" text-anchor="end">アプリケーション層</text>
+  <path d="M 146 96 H 140 V 192 H 146" fill="none" stroke="#999999"/>
+  <text x="134" y="149.0" fill="#333333" text-anchor="end">TLS</text>
+  <path d="M 146 200 H 140 V 240 H 146" fill="none" stroke="#999999"/>
+  <text x="134" y="225.0" fill="#333333" text-anchor="end">トランスポート層</text>
+</svg>

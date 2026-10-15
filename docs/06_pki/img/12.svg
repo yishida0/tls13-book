@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 388" width="780" height="388" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555555"/></marker>
+  </defs>
+  <rect width="780" height="388" fill="#ffffff"/>
+  <rect x="8" y="8" width="764" height="126" fill="#ffffff" stroke="#999999" stroke-dasharray="6 4"/>
+  <text x="20" y="28" fill="#555555" text-anchor="start" font-size="13">署名者</text>
+  <polygon points="34,80 134,80 124,116 24,116" fill="#ffffff" stroke="#999999"/>
+  <text x="79.0" y="103.0" fill="#333333" text-anchor="middle">電子文書</text>
+  <rect x="164" y="80" width="140" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="234.0" y="103.0" fill="#333333" text-anchor="middle" font-size="13">ハッシュ値を計算する</text>
+  <polygon points="344,80 434,80 424,116 334,116" fill="#ffffff" stroke="#999999"/>
+  <text x="384.0" y="103.0" fill="#333333" text-anchor="middle">ハッシュ値</text>
+  <rect x="464" y="80" width="140" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="534.0" y="103.0" fill="#333333" text-anchor="middle">署名を作る</text>
+  <polygon points="644,80 764,80 754,116 634,116" fill="#ffffff" stroke="#999999"/>
+  <text x="699.0" y="103.0" fill="#333333" text-anchor="middle">署名</text>
+  <polygon points="474,20 604,20 594,54 464,54" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="534.0" y="42.0" fill="#333333" text-anchor="middle" font-size="13">署名者の秘密鍵</text>
+  <polyline points="130,98.0 160,98.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="304,98.0 336,98.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="430,98.0 460,98.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="604,98.0 636,98.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="534.0,54 534.0,76" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <rect x="8" y="160" width="764" height="220" fill="#ffffff" stroke="#999999" stroke-dasharray="6 4"/>
+  <text x="20" y="180" fill="#555555" text-anchor="start" font-size="13">検証者</text>
+  <polygon points="34,256 134,256 124,292 24,292" fill="#ffffff" stroke="#999999"/>
+  <text x="79.0" y="279.0" fill="#333333" text-anchor="middle">電子文書</text>
+  <rect x="164" y="256" width="140" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="234.0" y="279.0" fill="#333333" text-anchor="middle" font-size="13">ハッシュ値を計算する</text>
+  <polygon points="344,256 434,256 424,292 334,292" fill="#ffffff" stroke="#999999"/>
+  <text x="384.0" y="279.0" fill="#333333" text-anchor="middle">ハッシュ値</text>
+  <rect x="464" y="256" width="140" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="534.0" y="279.0" fill="#333333" text-anchor="middle">署名を検証する</text>
+  <polygon points="644,256 764,256 754,292 634,292" fill="#ffffff" stroke="#999999"/>
+  <text x="699.0" y="279.0" fill="#333333" text-anchor="middle" font-size="13">成功または失敗</text>
+  <polyline points="130,274.0 160,274.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="304,274.0 336,274.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="430,274.0 460,274.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polyline points="604,274.0 636,274.0" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="644,192 764,192 754,226 634,226" fill="#ffffff" stroke="#999999"/>
+  <text x="699.0" y="214.0" fill="#333333" text-anchor="middle">署名</text>
+  <polyline points="638,209 534.0,209 534.0,252" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="474,324 604,324 594,358 464,358" fill="#ffffff" stroke="#999999"/>
+  <text x="534.0" y="346.0" fill="#333333" text-anchor="middle" font-size="13">署名者の公開鍵</text>
+  <polyline points="534.0,324 534.0,296" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="610" y="346" fill="#555555" text-anchor="start" font-size="12">あらかじめ受け取っておく</text>
+  <polyline points="79.0,116 79.0,252" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="89.0" y="150" fill="#555555" text-anchor="start" font-size="12">送る</text>
+  <polyline points="699.0,116 699.0,188" fill="none" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="709.0" y="150" fill="#555555" text-anchor="start" font-size="12">送る</text>
+</svg>

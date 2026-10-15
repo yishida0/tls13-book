@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 214" width="780" height="214" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555555"/></marker>
+  </defs>
+  <rect width="780" height="214" fill="#ffffff"/>
+  <rect x="10" y="64" width="110" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="65" y="87" fill="#333333" text-anchor="middle" font-size="13">内部状態1</text>
+  <line x1="65" y1="100" x2="65" y2="130" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="20,134 120,134 110,170 10,170" fill="#dcefdc" stroke="#7aa874"/>
+  <text x="65" y="157" fill="#333333" text-anchor="middle" font-size="13">出力1</text>
+  <rect x="170" y="64" width="110" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="225" y="87" fill="#333333" text-anchor="middle" font-size="13">内部状態2</text>
+  <line x1="225" y1="100" x2="225" y2="130" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="180,134 280,134 270,170 170,170" fill="#dcefdc" stroke="#7aa874"/>
+  <text x="225" y="157" fill="#333333" text-anchor="middle" font-size="13">出力2</text>
+  <rect x="330" y="64" width="110" height="36" fill="#fff0ee" stroke="#c44b3f"/>
+  <text x="385" y="87" fill="#333333" text-anchor="middle" font-size="13">内部状態3</text>
+  <line x1="385" y1="100" x2="385" y2="130" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="340,134 440,134 430,170 330,170" fill="#fff0ee" stroke="#c44b3f"/>
+  <text x="385" y="157" fill="#333333" text-anchor="middle" font-size="13">出力3</text>
+  <rect x="560" y="64" width="110" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="615" y="87" fill="#333333" text-anchor="middle" font-size="13">内部状態4</text>
+  <line x1="615" y1="100" x2="615" y2="130" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="570,134 670,134 660,170 560,170" fill="#dcefdc" stroke="#7aa874"/>
+  <text x="615" y="157" fill="#333333" text-anchor="middle" font-size="13">出力4</text>
+  <line x1="120" y1="82" x2="166" y2="82" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="143" y="74" fill="#555555" text-anchor="middle" font-size="11">更新</text>
+  <line x1="280" y1="82" x2="326" y2="82" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="303" y="74" fill="#555555" text-anchor="middle" font-size="11">更新</text>
+  <line x1="670" y1="82" x2="716" y2="82" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="693" y="74" fill="#555555" text-anchor="middle" font-size="11">更新</text>
+  <line x1="440" y1="82" x2="556" y2="82" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="498" y="100" fill="#555555" text-anchor="middle" font-size="11">混ぜて更新</text>
+  <polygon points="452,12 556,12 546,42 442,42" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="499" y="32" fill="#333333" text-anchor="middle" font-size="12">予測しにくい値</text>
+  <line x1="499" y1="42" x2="499" y2="78" stroke="#d08a2c" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="385" y="56" fill="#c44b3f" text-anchor="middle" font-size="12">攻撃者に漏れる</text>
+  <text x="740" y="87" fill="#333333" text-anchor="middle">…</text>
+  <path d="M 10 180 V 186 H 280 V 180" fill="none" stroke="#7aa874" stroke-width="1.2"/>
+  <text x="145" y="204" fill="#467d3e" text-anchor="middle" font-size="13">遡って求められない</text>
+  <path d="M 330 180 V 186 H 440 V 180" fill="none" stroke="#c44b3f" stroke-width="1.2"/>
+  <text x="385" y="204" fill="#c44b3f" text-anchor="middle" font-size="13">計算できる</text>
+  <path d="M 560 180 V 186 H 670 V 180" fill="none" stroke="#7aa874" stroke-width="1.2"/>
+  <text x="615" y="204" fill="#467d3e" text-anchor="middle" font-size="13">求められない</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 190" width="780" height="190" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="190" fill="#ffffff"/>
+  <text x="60.0" y="32.0" fill="#333333" text-anchor="middle">レコード1</text>
+  <text x="60.0" y="50.0" fill="#333333" text-anchor="middle">16,384バイト</text>
+  <rect x="118" y="12" width="64" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="150.0" y="32.0" fill="#333333" text-anchor="middle">ヘッダ</text>
+  <text x="150.0" y="50.0" fill="#333333" text-anchor="middle">4バイト</text>
+  <rect x="182" y="12" width="160" height="48" fill="#ffffff" stroke="#999999"/>
+  <text x="262.0" y="41.0" fill="#333333" text-anchor="middle">EncryptedExtensions</text>
+  <rect x="342" y="12" width="64" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="374.0" y="32.0" fill="#333333" text-anchor="middle">ヘッダ</text>
+  <text x="374.0" y="50.0" fill="#333333" text-anchor="middle">4バイト</text>
+  <rect x="406" y="12" width="366" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="589.0" y="41.0" fill="#333333" text-anchor="middle">Certificateの前半</text>
+  <path d="M 342 66 V 72 H 772 V 66" fill="none" stroke="#d08a2c"/>
+  <text x="557.0" y="90" fill="#333333" text-anchor="middle">16,374バイト</text>
+  <path d="M 700 96 V 106 H 218 V 128" fill="none" stroke="#888888" stroke-dasharray="5 4"/>
+  <path d="M 218 134 L 213 124 L 223 124 Z" fill="#888888"/>
+  <text x="235" y="124" fill="#333333" text-anchor="start">続き。先頭にハンドシェイクのヘッダがない</text>
+  <text x="60.0" y="154.0" fill="#333333" text-anchor="middle">レコード2</text>
+  <text x="60.0" y="172.0" fill="#333333" text-anchor="middle">3,922バイト</text>
+  <rect x="118" y="134" width="200" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="218.0" y="154.0" fill="#333333" text-anchor="middle">Certificateの後半</text>
+  <text x="218.0" y="172.0" fill="#333333" text-anchor="middle">3,626バイト</text>
+  <rect x="318" y="134" width="64" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="350.0" y="154.0" fill="#333333" text-anchor="middle">ヘッダ</text>
+  <text x="350.0" y="172.0" fill="#333333" text-anchor="middle">4バイト</text>
+  <rect x="382" y="134" width="170" height="48" fill="#ffffff" stroke="#999999"/>
+  <text x="467.0" y="163.0" fill="#333333" text-anchor="middle">CertificateVerify</text>
+  <rect x="552" y="134" width="64" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="584.0" y="154.0" fill="#333333" text-anchor="middle">ヘッダ</text>
+  <text x="584.0" y="172.0" fill="#333333" text-anchor="middle">4バイト</text>
+  <rect x="616" y="134" width="156" height="48" fill="#ffffff" stroke="#999999"/>
+  <text x="694.0" y="163.0" fill="#333333" text-anchor="middle">Finished</text>
+</svg>

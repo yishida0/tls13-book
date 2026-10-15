@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 130" width="780" height="130" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="130" fill="#ffffff"/>
+  <path d="M 8 38 V 32 H 438 V 38" fill="none" stroke="#999999"/>
+  <text x="223.0" y="26" fill="#333333" text-anchor="middle">AAD（5バイト）</text>
+  <path d="M 441 38 V 32 H 772 V 38" fill="none" stroke="#999999"/>
+  <text x="606.5" y="26" fill="#333333" text-anchor="middle">encrypted_record（674バイト）</text>
+  <rect x="8" y="44" width="110" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="63.0" y="64.0" fill="#333333" text-anchor="middle">opaque_type</text>
+  <text x="63.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">17</text>
+  <rect x="118" y="44" width="200" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="218.0" y="64.0" fill="#333333" text-anchor="middle">legacy_record_version</text>
+  <text x="218.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">03 03</text>
+  <rect x="318" y="44" width="120" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="378.0" y="64.0" fill="#333333" text-anchor="middle">length</text>
+  <text x="378.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">02 a2</text>
+  <rect x="438" y="44" width="204" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="540.0" y="64.0" fill="#333333" text-anchor="middle">暗号文</text>
+  <text x="540.0" y="82.0" fill="#333333" text-anchor="middle">658バイト</text>
+  <rect x="642" y="44" width="130" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="707.0" y="64.0" fill="#333333" text-anchor="middle">認証タグ</text>
+  <text x="707.0" y="82.0" fill="#333333" text-anchor="middle">16バイト</text>
+  <path d="M 378 92 V 114 H 432" fill="none" stroke="#888888" stroke-dasharray="5 4"/>
+  <path d="M 438 114 L 428 109 L 428 119 Z" fill="#888888"/>
+  <text x="446" y="119" fill="#333333" text-anchor="start">02 a2は10進数で674（658＋16）</text>
+</svg>

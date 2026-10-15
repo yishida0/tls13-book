@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 124" width="780" height="124" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="124" fill="#ffffff"/>
+  <text x="20" y="26" fill="#555555" font-size="12">擬似乱数生成器の出力</text>
+  <rect x="20" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="38" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="60" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="78" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="100" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="118" y="63" fill="#333333" text-anchor="middle">0</text>
+  <rect x="140" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="158" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="180" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="198" y="63" fill="#333333" text-anchor="middle">0</text>
+  <rect x="220" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="238" y="63" fill="#333333" text-anchor="middle">0</text>
+  <rect x="260" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="278" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="300" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="318" y="63" fill="#333333" text-anchor="middle">0</text>
+  <rect x="340" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="358" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="380" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="398" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="420" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="438" y="63" fill="#333333" text-anchor="middle">1</text>
+  <rect x="460" y="40" width="36" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="478" y="63" fill="#333333" text-anchor="middle">0</text>
+  <rect x="508" y="40" width="36" height="36" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="526" y="63" fill="#333333" text-anchor="middle">?</text>
+  <path d="M 20 86 V 92 H 496 V 86" fill="none" stroke="#999999" stroke-width="1.2"/>
+  <text x="258" y="110" fill="#333333" text-anchor="middle" font-size="13">攻撃者が知っている先頭kビット</text>
+  <text x="526" y="110" fill="#a8641a" text-anchor="middle" font-size="13">k+1ビット目</text>
+  <text x="572" y="54" fill="#333333" font-size="13">1か0かを、1/2より高い</text>
+  <text x="572" y="74" fill="#333333" font-size="13">確率で当てられない</text>
+</svg>

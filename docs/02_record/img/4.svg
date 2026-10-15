@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 132" width="780" height="132" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="132" fill="#ffffff"/>
+  <rect x="8.0" y="44" width="80.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="48.0" y="64.0" fill="#333333" text-anchor="middle">type</text>
+  <text x="48.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">16</text>
+  <rect x="88.0" y="44" width="180.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="178.0" y="64.0" fill="#333333" text-anchor="middle">legacy_record_version</text>
+  <text x="178.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">03 03</text>
+  <rect x="268.0" y="44" width="80.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="308.0" y="64.0" fill="#333333" text-anchor="middle">length</text>
+  <text x="308.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">00 5a</text>
+  <rect x="348.0" y="44" width="100.0" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="398.0" y="64.0" fill="#333333" text-anchor="middle">msg_type</text>
+  <text x="398.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">02</text>
+  <rect x="448.0" y="44" width="110.0" height="48" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="503.0" y="64.0" fill="#333333" text-anchor="middle">length</text>
+  <text x="503.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">00 00 56</text>
+  <rect x="558.0" y="44" width="214.0" height="48" fill="#ffffff" stroke="#999999"/>
+  <text x="665.0" y="64.0" fill="#333333" text-anchor="middle">ServerHello（86バイト）</text>
+  <text x="665.0" y="82.0" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">03 03 ab ee ...</text>
+  <path d="M 8 38 V 32 H 345 V 38" fill="none" stroke="#999999"/>
+  <text x="176.5" y="26" fill="#333333" text-anchor="middle">レコードのヘッダ（5バイト）</text>
+  <path d="M 351 38 V 32 H 558 V 38" fill="none" stroke="#d08a2c"/>
+  <text x="454.5" y="26" fill="#333333" text-anchor="middle">Handshakeのヘッダ（4バイト）</text>
+  <path d="M 348 98 V 104 H 772 V 98" fill="none" stroke="#999999"/>
+  <text x="560.0" y="122" fill="#333333" text-anchor="middle">fragment（90バイト）</text>
+</svg>

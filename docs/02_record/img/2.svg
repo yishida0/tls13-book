@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 338" width="780" height="338" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="338" fill="#ffffff"/>
+  <rect x="8.0" y="44" width="110.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="63.0" y="64.0" fill="#333333" text-anchor="middle">type</text>
+  <text x="63.0" y="82.0" fill="#333333" text-anchor="middle">1バイト</text>
+  <rect x="118.0" y="44" width="200.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="218.0" y="64.0" fill="#333333" text-anchor="middle">legacy_record_version</text>
+  <text x="218.0" y="82.0" fill="#333333" text-anchor="middle">2バイト</text>
+  <rect x="318.0" y="44" width="120.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="378.0" y="64.0" fill="#333333" text-anchor="middle">length</text>
+  <text x="378.0" y="82.0" fill="#333333" text-anchor="middle">2バイト</text>
+  <rect x="438.0" y="44" width="334.0" height="48" fill="#ffffff" stroke="#999999"/>
+  <text x="605.0" y="64.0" fill="#333333" text-anchor="middle">fragment</text>
+  <text x="605.0" y="82.0" fill="#333333" text-anchor="middle">[length]</text>
+  <path d="M 8 38 V 32 H 438 V 38" fill="none" stroke="#999999"/>
+  <text x="223.0" y="26" fill="#333333" text-anchor="middle">ヘッダ（5バイト）</text>
+  <text x="190.0" y="124" fill="#333333" text-anchor="middle">typeの値</text>
+  <text x="605.0" y="124" fill="#333333" text-anchor="middle">fragmentの中身</text>
+  <path d="M 63 92 V 292 M 63 154 H 90 M 63 200 H 90 M 63 246 H 90 M 63 292 H 90" fill="none" stroke="#999999"/>
+  <rect x="90.0" y="136" width="200.0" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="190.0" y="159.0" fill="#333333" text-anchor="middle">handshake(22)</text>
+  <path d="M 290 154 H 428" fill="none" stroke="#888888"/>
+  <path d="M 438 154 L 428 149 L 428 159 Z" fill="#888888"/>
+  <rect x="438.0" y="136" width="334.0" height="36" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="605.0" y="159.0" fill="#333333" text-anchor="middle">ハンドシェイク関連のメッセージ</text>
+  <rect x="90.0" y="182" width="200.0" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="190.0" y="205.0" fill="#333333" text-anchor="middle">alert(21)</text>
+  <path d="M 290 200 H 428" fill="none" stroke="#888888"/>
+  <path d="M 438 200 L 428 195 L 428 205 Z" fill="#888888"/>
+  <rect x="438.0" y="182" width="334.0" height="36" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="605.0" y="205.0" fill="#333333" text-anchor="middle">エラーや切断通知のメッセージ</text>
+  <rect x="90.0" y="228" width="200.0" height="36" fill="#f3f3f3" stroke="#999999"/>
+  <text x="190.0" y="251.0" fill="#333333" text-anchor="middle">application_data(23)</text>
+  <path d="M 290 246 H 428" fill="none" stroke="#888888"/>
+  <path d="M 438 246 L 428 241 L 428 251 Z" fill="#888888"/>
+  <rect x="438.0" y="228" width="334.0" height="36" fill="#fde2b8" stroke="#d08a2c"/>
+  <text x="605.0" y="251.0" fill="#333333" text-anchor="middle">HTTPなどのアプリケーションデータ</text>
+  <rect x="90.0" y="274" width="200.0" height="36" fill="#f3f3f3" stroke="#999999" stroke-dasharray="4 3"/>
+  <text x="190.0" y="297.0" fill="#777777" text-anchor="middle">change_cipher_spec(20)</text>
+  <path d="M 290 292 H 428" fill="none" stroke="#999999" stroke-dasharray="4 3"/>
+  <path d="M 438 292 L 428 287 L 428 297 Z" fill="#999999"/>
+  <rect x="438.0" y="274" width="334.0" height="36" fill="#f3f3f3" stroke="#999999" stroke-dasharray="4 3"/>
+  <text x="605.0" y="297.0" fill="#777777" text-anchor="middle">暗号切り替え通知のメッセージ</text>
+  <text x="605.0" y="328" fill="#777777" text-anchor="middle" font-size="12">TLS 1.3では中身に意味はない</text>
+</svg>

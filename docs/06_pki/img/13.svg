@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 444" width="790" height="444" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="790" height="444" fill="#ffffff"/>
+  <path d="M 170 52 V 432" fill="none" stroke="#999999" stroke-dasharray="4 4"/>
+  <rect x="95.0" y="16" width="150" height="36" fill="#ffffff" stroke="#999999"/>
+  <text x="170" y="39.0" fill="#333333" text-anchor="middle">認証局</text>
+  <path d="M 420 52 V 432" fill="none" stroke="#999999" stroke-dasharray="4 4"/>
+  <rect x="345.0" y="16" width="150" height="36" fill="#ffffff" stroke="#999999"/>
+  <text x="420" y="39.0" fill="#333333" text-anchor="middle">サーバー</text>
+  <path d="M 650 52 V 432" fill="none" stroke="#999999" stroke-dasharray="4 4"/>
+  <rect x="575.0" y="16" width="150" height="36" fill="#ffffff" stroke="#999999"/>
+  <text x="650" y="39.0" fill="#333333" text-anchor="middle">クライアント</text>
+  <rect x="550.0" y="68" width="200" height="44" fill="#ffffff" stroke="#999999"/>
+  <text x="650" y="86.0" fill="#333333" text-anchor="middle" font-size="13">認証局の公開鍵を</text>
+  <text x="650" y="104.0" fill="#333333" text-anchor="middle" font-size="13">前もって持っている</text>
+  <path d="M 12 122 H 778" fill="none" stroke="#cccccc"/>
+  <text x="12" y="140" fill="#333333" font-size="12">証明書の発行</text>
+  <path d="M 12 238 H 778" fill="none" stroke="#cccccc"/>
+  <text x="12" y="256" fill="#333333" font-size="12">TLSのハンドシェイク</text>
+  <path d="M 420 150 H 179" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 171 150 L 181 145 L 181 155 Z" fill="#333333"/>
+  <text x="295.0" y="142" fill="#333333" text-anchor="middle" font-size="13">名前と公開鍵を送って申請</text>
+  <path d="M 170 212 H 411" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 419 212 L 409 207 L 409 217 Z" fill="#333333"/>
+  <text x="295.0" y="204" fill="#333333" text-anchor="middle" font-size="13">認証局の秘密鍵で署名した証明書を発行</text>
+  <text x="295.0" y="186" fill="#333333" text-anchor="middle" font-size="13">名前の持ち主かを確かめ、</text>
+  <path d="M 420 268 H 641" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 649 268 L 639 263 L 639 273 Z" fill="#333333"/>
+  <text x="535.0" y="260" fill="#333333" text-anchor="middle" font-size="13">Certificate（証明書）</text>
+  <path d="M 420 324 H 641" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 649 324 L 639 319 L 639 329 Z" fill="#333333"/>
+  <text x="535.0" y="316" fill="#333333" text-anchor="middle" font-size="13">（サーバーの秘密鍵で付けた署名）</text>
+  <text x="535.0" y="298" fill="#333333" text-anchor="middle" font-size="13">CertificateVerify</text>
+  <rect x="535.0" y="340" width="230" height="44" fill="#ffffff" stroke="#999999"/>
+  <text x="650" y="358.0" fill="#333333" text-anchor="middle" font-size="13">証明書の署名を、</text>
+  <text x="650" y="376.0" fill="#333333" text-anchor="middle" font-size="13">認証局の公開鍵で検証する</text>
+  <rect x="535.0" y="392" width="230" height="44" fill="#ffffff" stroke="#999999"/>
+  <text x="650" y="410.0" fill="#333333" text-anchor="middle" font-size="13">CertificateVerifyの署名を、</text>
+  <text x="650" y="428.0" fill="#333333" text-anchor="middle" font-size="13">証明書の公開鍵で検証する</text>
+</svg>

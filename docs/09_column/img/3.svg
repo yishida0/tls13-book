@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 176" width="780" height="176" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555555"/></marker>
+    <marker id="ahc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d08a2c"/></marker>
+  </defs>
+  <rect width="780" height="176" fill="#ffffff"/>
+  <path d="M 374 38 V 32 H 768 V 38" fill="none" stroke="#d08a2c" stroke-width="1.2"/>
+  <text x="571" y="24" fill="#a8641a" text-anchor="middle" font-size="13">シードより長い出力（引き伸ばし）</text>
+  <polygon points="18,44 150,44 140,80 8,80" fill="#ffffff" stroke="#999999"/>
+  <text x="79" y="67" fill="#333333" text-anchor="middle">シード</text>
+  <line x1="150" y1="62" x2="186" y2="62" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <rect x="190" y="44" width="140" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="260" y="67" fill="#333333" text-anchor="middle" font-size="13">擬似乱数生成器</text>
+  <line x1="330" y1="62" x2="366" y2="62" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="380,44 772,44 762,80 370,80" fill="#dcefdc" stroke="#7aa874"/>
+  <text x="571" y="67" fill="#333333" text-anchor="middle">5e 9b 02 c7 41 d8 6a f3 0e 77 b4 19 …</text>
+  <line x1="79" y1="84" x2="79" y2="120" stroke="#d08a2c" stroke-width="1.5" marker-start="url(#ahc)" marker-end="url(#ahc)"/>
+  <text x="91" y="107" fill="#a8641a" font-size="13">同じシード</text>
+  <line x1="571" y1="84" x2="571" y2="120" stroke="#d08a2c" stroke-width="1.5" marker-start="url(#ahc)" marker-end="url(#ahc)"/>
+  <text x="583" y="107" fill="#a8641a" font-size="13">同じ出力（決定論的）</text>
+  <polygon points="18,124 150,124 140,160 8,160" fill="#ffffff" stroke="#999999"/>
+  <text x="79" y="147" fill="#333333" text-anchor="middle">シード</text>
+  <line x1="150" y1="142" x2="186" y2="142" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <rect x="190" y="124" width="140" height="36" fill="#f3f3f3" stroke="#666666"/>
+  <text x="260" y="147" fill="#333333" text-anchor="middle" font-size="13">擬似乱数生成器</text>
+  <line x1="330" y1="142" x2="366" y2="142" stroke="#555555" stroke-width="1.5" marker-end="url(#ah)"/>
+  <polygon points="380,124 772,124 762,160 370,160" fill="#dcefdc" stroke="#7aa874"/>
+  <text x="571" y="147" fill="#333333" text-anchor="middle">5e 9b 02 c7 41 d8 6a f3 0e 77 b4 19 …</text>
+</svg>

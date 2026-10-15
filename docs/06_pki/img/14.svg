@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 100" width="780" height="100" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="780" height="100" fill="#ffffff"/>
+  <rect x="8.0" y="44" width="200.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="108.0" y="64.0" fill="#333333" text-anchor="middle">0x20を64個</text>
+  <text x="108.0" y="82.0" fill="#333333" text-anchor="middle">64バイト</text>
+  <rect x="208.0" y="44" width="220.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="318.0" y="64.0" fill="#333333" text-anchor="middle">コンテキスト文字列</text>
+  <text x="318.0" y="82.0" fill="#333333" text-anchor="middle">33バイト</text>
+  <rect x="428.0" y="44" width="120.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="488.0" y="64.0" fill="#333333" text-anchor="middle">0x00</text>
+  <text x="488.0" y="82.0" fill="#333333" text-anchor="middle">1バイト</text>
+  <rect x="548.0" y="44" width="224.0" height="48" fill="#f3f3f3" stroke="#999999"/>
+  <text x="660.0" y="64.0" fill="#333333" text-anchor="middle">transcriptの</text>
+  <text x="660.0" y="82.0" fill="#333333" text-anchor="middle">ハッシュ</text>
+  <path d="M 8 38 V 32 H 772 V 38" fill="none" stroke="#999999"/>
+  <text x="390.0" y="26" fill="#333333" text-anchor="middle">サーバーが署名するバイト列</text>
+</svg>
