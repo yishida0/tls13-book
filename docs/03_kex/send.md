@@ -18,7 +18,7 @@ TLSPlaintext（type=22, version, length）
     └── ClientHello
 ```
 
-![送信したClientHelloのレコードを3段に分けて広げた図](./img/10.svg)
+![送信したClientHelloのレコードを3段に分けて広げた図](./img/9.svg)
 
 ::: code-group
 

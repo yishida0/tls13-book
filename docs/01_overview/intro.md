@@ -55,7 +55,7 @@ AS番号は個人でも取得できるため、中には悪意を持ってネッ
 
 元CIA（Central Intelligence Agency：米国中央情報局）職員で、当時NSA（National Security Agency：米国国家安全保障局）の委託企業の社員だったエドワード・スノーデン氏は、NSAの機密文書を報道機関に提供し、NSAが大規模な監視活動を行っていたことを暴露しました。英国のガーディアン紙[^guardian-prism]と米国のワシントン・ポスト紙[^wapo-prism]は、提供された文書をもとに、NSAがPRISMと呼ばれる計画のもとで、大手IT企業などから通信データを収集していたことを報じました。図4は、PRISMについて説明したNSAの内部資料です。
 
-![PRISMで収集する企業とデータの一覧を示したNSAのスライド](./img/12.png)
+![PRISMで収集する企業とデータの一覧を示したNSAのスライド](./img/11.png)
 
 *PRISMの収集内容を説明したNSAの内部資料[^prism-slides]*
 

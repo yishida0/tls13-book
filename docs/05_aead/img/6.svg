@@ -1,50 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784 250" width="784" height="250" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
-  <rect width="784" height="250" fill="#ffffff"/>
-  <text x="212.0" y="24" fill="#333333" text-anchor="middle" font-size="12">1〜32バイト目</text>
-  <text x="372.0" y="24" fill="#333333" text-anchor="middle" font-size="12">33〜64バイト目</text>
-  <text x="532.0" y="24" fill="#333333" text-anchor="middle" font-size="12">65〜96バイト目</text>
-  <text x="692.0" y="24" fill="#333333" text-anchor="middle" font-size="12">97〜128バイト目</text>
-  <text x="100" y="58" fill="#333333" text-anchor="end">平文</text>
-  <rect x="136" y="36" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="212.0" y="58" fill="#333333" text-anchor="middle">平文1</text>
-  <rect x="296" y="36" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="372.0" y="58" fill="#333333" text-anchor="middle">平文2</text>
-  <rect x="456" y="36" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="532.0" y="58" fill="#333333" text-anchor="middle">平文3</text>
-  <rect x="616" y="36" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="692.0" y="58" fill="#333333" text-anchor="middle">平文4</text>
-  <text x="100" y="100" fill="#333333" text-anchor="end">鍵ストリーム</text>
-  <rect x="136" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="212.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム1</text>
-  <rect x="296" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="372.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム2</text>
-  <rect x="456" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="532.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム3</text>
-  <rect x="616" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="692.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム4</text>
-  <text x="100" y="150" fill="#333333" text-anchor="end">暗号文</text>
-  <rect x="136" y="128" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="212.0" y="150" fill="#333333" text-anchor="middle">暗号文1</text>
-  <rect x="296" y="128" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="372.0" y="150" fill="#333333" text-anchor="middle">暗号文2</text>
-  <rect x="456" y="128" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="532.0" y="150" fill="#333333" text-anchor="middle">暗号文3</text>
-  <rect x="616" y="128" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="692.0" y="150" fill="#333333" text-anchor="middle">暗号文4</text>
-  <circle cx="118" cy="95" r="8" fill="none" stroke="#333333" stroke-width="1.2"/>
-  <path d="M 110 95 H 126 M 118 87 V 103" fill="none" stroke="#333333" stroke-width="1.2"/>
-  <path d="M 106 120 H 768" fill="none" stroke="#333333"/>
-  <text x="100" y="215" fill="#333333" text-anchor="end">攻撃者</text>
-  <rect x="136" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="212.0" y="206" fill="#333333" text-anchor="middle" font-size="13">平文1を推測して</text>
-  <text x="212.0" y="224" fill="#333333" text-anchor="middle" font-size="13">鍵ストリーム1を求める</text>
-  <rect x="296" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="372.0" y="206" fill="#333333" text-anchor="middle" font-size="13">暗号文2は</text>
-  <text x="372.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できない</text>
-  <rect x="456" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="532.0" y="206" fill="#333333" text-anchor="middle" font-size="13">暗号文3は</text>
-  <text x="532.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できない</text>
-  <rect x="616" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="692.0" y="206" fill="#333333" text-anchor="middle" font-size="13">暗号文4は</text>
-  <text x="692.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できない</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784 172" width="784" height="172" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="784" height="172" fill="#ffffff"/>
+  <text x="196" y="26" fill="#333333" text-anchor="middle">暗号化</text>
+  <text x="26" y="61" fill="#333333" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-style="italic" font-size="17">m</text>
+  <rect x="68" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="84.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="100" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="116.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="132" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="148.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="164" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="180.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="196" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="212.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="228" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="244.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="260" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="276.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="292" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="308.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <text x="334" y="61" fill="#333333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0x41</text>
+  <text x="26" y="101" fill="#333333" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-style="italic" font-size="17">s</text>
+  <rect x="68" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="84.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="100" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="116.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="132" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="148.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="164" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="180.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="196" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="212.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="228" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="244.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="260" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="276.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="292" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="308.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <text x="334" y="101" fill="#333333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0x58</text>
+  <text x="26" y="149" fill="#333333" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-style="italic" font-size="17">c</text>
+  <rect x="68" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="84.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="100" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="116.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="132" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="148.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="164" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="180.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="196" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="212.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="228" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="244.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="260" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="276.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="292" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="308.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <text x="334" y="149" fill="#333333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0x19</text>
+  <circle cx="50" cy="96" r="8" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 42 96 H 58 M 50 88 V 104" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 38 120 H 324" fill="none" stroke="#333333"/>
+  <text x="596" y="26" fill="#333333" text-anchor="middle">復号</text>
+  <text x="426" y="61" fill="#333333" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-style="italic" font-size="17">c</text>
+  <rect x="468" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="484.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="500" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="516.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="532" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="548.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="564" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="580.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="596" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="612.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="628" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="644.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="660" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="676.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="692" y="40" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="708.0" y="61" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <text x="734" y="61" fill="#333333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0x19</text>
+  <text x="426" y="101" fill="#333333" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-style="italic" font-size="17">s</text>
+  <rect x="468" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="484.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="500" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="516.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="532" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="548.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="564" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="580.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="596" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="612.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="628" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="644.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="660" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="676.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="692" y="80" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="708.0" y="101" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <text x="734" y="101" fill="#333333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0x58</text>
+  <text x="426" y="149" fill="#333333" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-style="italic" font-size="17">m</text>
+  <rect x="468" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="484.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="500" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="516.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <rect x="532" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="548.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="564" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="580.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="596" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="612.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="628" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="644.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="660" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="676.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0</text>
+  <rect x="692" y="128" width="32" height="32" fill="#ffffff" stroke="#999999"/>
+  <text x="708.0" y="149" fill="#333333" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1</text>
+  <text x="734" y="149" fill="#333333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0x41</text>
+  <circle cx="450" cy="96" r="8" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 442 96 H 458 M 450 88 V 104" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 438 120 H 724" fill="none" stroke="#333333"/>
 </svg>

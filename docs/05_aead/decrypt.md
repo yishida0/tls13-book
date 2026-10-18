@@ -12,7 +12,7 @@ ServerHelloのあと、サーバーはEncryptedExtensions、Certificate、Certif
 
 [RFC 9846 §5.1](https://datatracker.ietf.org/doc/html/rfc9846#section-5.1)は、レコード1つに入れられる平文の長さを、2<sup>14</sup>バイト（16,384バイト）までと定めています。一方、ハンドシェイクメッセージの本体の長さはヘッダの3バイトで表すので、最大で2<sup>24</sup> − 1バイト（16,777,215バイト）まで書けます。サーバーの証明書と中間証明書を並べて送るCertificateは、16,384バイトを超えることがあります。そのときサーバーは、Certificateを2つ以上のレコードに分けて送ります。図1は、20,000バイトのCertificateを2つのレコードに分けて送る例です。色を付けた2つの箱が、1つのCertificateです。
 
-![Certificateが2つのレコードにまたがる例。レコード2はCertificateの後半から始まり、先頭にハンドシェイクのヘッダがない](./img/17.svg)
+![Certificateが2つのレコードにまたがる例。レコード2はCertificateの後半から始まり、先頭にハンドシェイクのヘッダがない](./img/10.svg)
 
 *Certificateが2つのレコードにまたがる例*
 

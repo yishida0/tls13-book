@@ -34,7 +34,7 @@
 >
 > 引用元: [RFC 9846 §4.2.2 Client Hello](https://datatracker.ietf.org/doc/html/rfc9846#section-4.2.2)
 
-![ClientHelloのフィールドと長さの並び](./img/9.svg)
+![ClientHelloのフィールドと長さの並び](./img/8.svg)
 
 ::: tip 長さフィールドが必要かどうかの見分け方
 ClientHelloのstructには長さフィールドが1つも書かれていませんが、実際のバイト列には入ります。型名の後ろの記法から判断できます。

@@ -19,7 +19,7 @@ ServerHelloは、RFCで次のように定義されています。
 >
 > 引用元: [RFC 9846 §4.2.3 Server Hello](https://datatracker.ietf.org/doc/html/rfc9846#section-4.2.3)
 
-![受信したServerHelloの86バイトと拡張の中身](./img/8.svg)
+![受信したServerHelloの86バイトと拡張の中身](./img/7.svg)
 
 フィールドの並びはClientHelloとほぼ同じですが、いくつか違いがあります。ClientHelloの`cipher_suites`には候補を複数並べましたが、ServerHelloの`cipher_suite`には、サーバーが選んだ暗号スイートが1つだけ入ります。また、`legacy_compression_methods`は`legacy_compression_method`となり、長さフィールドのない1バイト固定の値になります。
 

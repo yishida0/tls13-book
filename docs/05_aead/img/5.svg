@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784 264" width="784" height="264" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
-  <rect width="784" height="264" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784 250" width="784" height="250" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif" font-size="14">
+  <rect width="784" height="250" fill="#ffffff"/>
   <text x="212.0" y="24" fill="#333333" text-anchor="middle" font-size="12">1〜32バイト目</text>
   <text x="372.0" y="24" fill="#333333" text-anchor="middle" font-size="12">33〜64バイト目</text>
   <text x="532.0" y="24" fill="#333333" text-anchor="middle" font-size="12">65〜96バイト目</text>
@@ -13,15 +13,15 @@
   <text x="532.0" y="58" fill="#333333" text-anchor="middle">平文3</text>
   <rect x="616" y="36" width="152" height="34" fill="#ffffff" stroke="#999999"/>
   <text x="692.0" y="58" fill="#333333" text-anchor="middle">平文4</text>
-  <text x="100" y="100" fill="#333333" text-anchor="end">鍵</text>
+  <text x="100" y="100" fill="#333333" text-anchor="end">鍵ストリーム</text>
   <rect x="136" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="212.0" y="100" fill="#333333" text-anchor="middle">鍵</text>
+  <text x="212.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム1</text>
   <rect x="296" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="372.0" y="100" fill="#333333" text-anchor="middle">鍵</text>
+  <text x="372.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム2</text>
   <rect x="456" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="532.0" y="100" fill="#333333" text-anchor="middle">鍵</text>
+  <text x="532.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム3</text>
   <rect x="616" y="78" width="152" height="34" fill="#ffffff" stroke="#999999"/>
-  <text x="692.0" y="100" fill="#333333" text-anchor="middle">鍵</text>
+  <text x="692.0" y="100" fill="#333333" text-anchor="middle">鍵ストリーム4</text>
   <text x="100" y="150" fill="#333333" text-anchor="end">暗号文</text>
   <rect x="136" y="128" width="152" height="34" fill="#ffffff" stroke="#999999"/>
   <text x="212.0" y="150" fill="#333333" text-anchor="middle">暗号文1</text>
@@ -37,21 +37,14 @@
   <text x="100" y="215" fill="#333333" text-anchor="end">攻撃者</text>
   <rect x="136" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
   <text x="212.0" y="206" fill="#333333" text-anchor="middle" font-size="13">平文1を推測して</text>
-  <text x="212.0" y="224" fill="#333333" text-anchor="middle" font-size="13">鍵を求める</text>
+  <text x="212.0" y="224" fill="#333333" text-anchor="middle" font-size="13">鍵ストリーム1を求める</text>
   <rect x="296" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="372.0" y="206" fill="#333333" text-anchor="middle" font-size="13">鍵で暗号文2を</text>
-  <text x="372.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できる</text>
+  <text x="372.0" y="206" fill="#333333" text-anchor="middle" font-size="13">暗号文2は</text>
+  <text x="372.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できない</text>
   <rect x="456" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="532.0" y="206" fill="#333333" text-anchor="middle" font-size="13">鍵で暗号文3を</text>
-  <text x="532.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できる</text>
+  <text x="532.0" y="206" fill="#333333" text-anchor="middle" font-size="13">暗号文3は</text>
+  <text x="532.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できない</text>
   <rect x="616" y="186" width="152" height="48" fill="#ffffff" stroke="#999999" stroke-dasharray="4 3"/>
-  <text x="692.0" y="206" fill="#333333" text-anchor="middle" font-size="13">鍵で暗号文4を</text>
-  <text x="692.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できる</text>
-  <path d="M 212.0 234 V 250 H 692.0" fill="none" stroke="#333333"/>
-  <path d="M 372.0 250 V 241" fill="none" stroke="#333333"/>
-  <path d="M 367.0 243 L 372.0 235 L 377.0 243 Z" fill="#333333"/>
-  <path d="M 532.0 250 V 241" fill="none" stroke="#333333"/>
-  <path d="M 527.0 243 L 532.0 235 L 537.0 243 Z" fill="#333333"/>
-  <path d="M 692.0 250 V 241" fill="none" stroke="#333333"/>
-  <path d="M 687.0 243 L 692.0 235 L 697.0 243 Z" fill="#333333"/>
+  <text x="692.0" y="206" fill="#333333" text-anchor="middle" font-size="13">暗号文4は</text>
+  <text x="692.0" y="224" fill="#333333" text-anchor="middle" font-size="13">復号できない</text>
 </svg>

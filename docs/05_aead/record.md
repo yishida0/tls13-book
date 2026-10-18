@@ -18,7 +18,7 @@ TLSCiphertext
         └── zeros                           ← 詰め物（0バイト以上）
 ```
 
-![TLSCiphertextの構造。encrypted_recordは暗号化したTLSInnerPlaintextと認証タグからなり、復号するとcontentとtypeとzerosが出てくる](./img/18.svg)
+![TLSCiphertextの構造。encrypted_recordは暗号化したTLSInnerPlaintextと認証タグからなり、復号するとcontentとtypeとzerosが出てくる](./img/11.svg)
 
 
 ### TLSCiphertext

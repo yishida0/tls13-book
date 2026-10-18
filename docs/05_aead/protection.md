@@ -131,7 +131,7 @@ TLS 1.3では、TLSCiphertextのヘッダ5バイトをAADにします。
 >
 > 引用元: [RFC 9846 §5.2 Record Payload Protection](https://datatracker.ietf.org/doc/html/rfc9846#section-5.2)
 
-![RFC 8448のサーバーのレコードのヘッダ。ヘッダ5バイトがAADになり、lengthの02 a2は暗号文658バイトと認証タグ16バイトの合計](./img/19.svg)
+![RFC 8448のサーバーのレコードのヘッダ。ヘッダ5バイトがAADになり、lengthの02 a2は暗号文658バイトと認証タグ16バイトの合計](./img/12.svg)
 
 ヘッダをAADにするのは、暗号化せずに送る必要がある一方で、改ざんを検知したいデータだからです。
 
