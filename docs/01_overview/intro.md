@@ -9,7 +9,7 @@
 *インターネットにつながるさまざまな機器*
 
 まず、インターネットの正体について知る必要があります。
-インターネットは、どこかに実体が1つ存在するものではありません。無数のコンピュータが有線・無線で相互に接続されることで形成される、巨大なコンピュータ・ネットワークの集合体です。
+インターネットは、どこかに実体が1つ存在するものではありません。無数のコンピュータが有線や無線で相互に接続されることで形成される、巨大なコンピュータネットワークの集合体です。
 
 このネットワークは、単一の組織が運営しているわけではありません。役割の異なる多様な組織がネットワークを持ち寄り、相互に接続することで成り立っています。
 
@@ -98,7 +98,7 @@ SSLはもともとNetscape社が開発したプロトコルで、TLS 1.0以降�
 | TLS 1.0 | [RFC 2246](https://datatracker.ietf.org/doc/html/rfc2246) | 1999 | [RFC 8996](https://datatracker.ietf.org/doc/html/rfc8996)により廃止（2021） |
 | TLS 1.1 | [RFC 4346](https://datatracker.ietf.org/doc/html/rfc4346) | 2006 | [RFC 8996](https://datatracker.ietf.org/doc/html/rfc8996)により廃止（2021） |
 | TLS 1.2 | [RFC 5246](https://datatracker.ietf.org/doc/html/rfc5246) | 2008 | 現役（利用可能） |
-| TLS 1.3 | [RFC 8446](https://datatracker.ietf.org/doc/html/rfc8446)、改訂版の[RFC 9846](https://datatracker.ietf.org/doc/html/rfc9846) | 2018、2026 | 現役（最新版・推奨） |
+| TLS 1.3 | [RFC 8446](https://datatracker.ietf.org/doc/html/rfc8446)、改訂版の[RFC 9846](https://datatracker.ietf.org/doc/html/rfc9846) | 2018、2026 | 現役（最新版、推奨） |
 
 *SSL/TLSの各バージョンと現在の扱い*
 

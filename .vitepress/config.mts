@@ -119,7 +119,7 @@ export default withMermaid(
           text: "第3章 鍵交換とネゴシエーション",
           collapsed: false,
           items: [
-            { text: "ClientHello・ServerHelloの役割", link: "/03_kex/hello" },
+            { text: "ClientHelloとServerHelloの役割", link: "/03_kex/hello" },
             { text: "Extension（拡張）を実装する", link: "/03_kex/ext" },
             { text: "鍵配送問題と鍵交換", link: "/03_kex/dh" },
             { text: "ClientHelloを送る", link: "/03_kex/send" },

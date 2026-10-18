@@ -1,4 +1,4 @@
-# ClientHello・ServerHelloの役割
+# ClientHelloとServerHelloの役割
 
 [第2章](/02_record/record)では、TLSのメッセージに共通する入れ物を作りました。本章では、その中身となるメッセージを作ります。
 扱うのは、TLSの通信のはじめに交わすClientHelloとServerHelloです。前章で作った入れ物を使って、この2つを送受信できるようにしていきましょう。

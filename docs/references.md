@@ -41,7 +41,7 @@
 - Dworkin, M. "Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC". NIST SP 800-38D, 2007. https://csrc.nist.gov/pubs/sp/800/38/d/final
 - Kelsey, J., Chang, S., Perlner, R. "SHA-3 Derived Functions: cSHAKE, KMAC, TupleHash, and ParallelHash". NIST SP 800-185, 2016. https://csrc.nist.gov/pubs/sp/800/185/final
 
-## 団体・企業の資料
+## 団体と企業の資料
 
 - ITU-T. "X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks". 2019. https://www.itu.int/rec/T-REC-X.509, (参照2026-08-17).
 - CA/Browser Forum. "Baseline Requirements for the Issuance and Management of Publicly-Trusted TLS Server Certificates". https://cabforum.org/working-groups/server/baseline-requirements/documents/, (参照2026-08-17).
@@ -80,7 +80,7 @@
 - Wikipedia. "Block cipher mode of operation". https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation, (参照2026-08-17).
 - Nuta, S. "Operating System in 1,000 Lines". https://operating-system-in-1000-lines.vercel.app/, (参照2026-10-15).
 
-## 講演資料・ポッドキャスト
+## 講演資料とポッドキャスト
 
 - catatsuy. "#11 Let's Encryptは無料より自動化がすごい！証明書運用の知られざる世界". 八百万のOSS（ポッドキャスト）, 2026-07-14. https://podcasts.apple.com/cy/podcast/id1896371641?i=1000776773753, (参照2026-09-20).
 - 大津繁樹. "TLS徹底演習". セキュリティ・キャンプ全国大会2016 集中講義, 2016-08-10. https://speakerdeck.com/shigeki/tlsche-di-yan-xi, (参照2026-09-20).
