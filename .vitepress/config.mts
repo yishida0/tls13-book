@@ -161,9 +161,9 @@ export default withMermaid(
             { text: "X.509証明書", link: "/06_pki/x509" },
             { text: "認証局と証明書チェーン", link: "/06_pki/ca" },
             { text: "TLSにおける証明書検証", link: "/06_pki/chain" },
-            { text: "証明書チェーンを実装する", link: "/06_pki/verify" },
+            { text: "証明書チェーンの検証を実装する", link: "/06_pki/verify" },
             {
-              text: "CertificateVerifyの署名検証を実装する",
+              text: "CertificateVerifyの検証を実装する",
               link: "/06_pki/certverify",
             },
           ],
