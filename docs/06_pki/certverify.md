@@ -122,7 +122,7 @@ func (cv *CertificateVerify) Verify(cert *x509.Certificate, transcriptHash []byt
 
 :::
 
-対応する署名方式は、ClientHelloの`signature_algorithms`拡張で申告した5つです。それ以外の署名方式が届いたときは、エラーを返します。
+対応する署名方式は、ClientHelloの`signature_algorithms`拡張で申告した6つのうち、`rsa_pkcs1_sha256`を除く5つです。[RFC 9846 §4.3.3](https://datatracker.ietf.org/doc/html/rfc9846#section-4.3.3)は、`rsa_pkcs1_sha256`を証明書の中の署名だけに使う方式と定めており、サーバーはCertificateVerifyの署名に使えません。本書のクライアントは、証明書の中の署名のために`rsa_pkcs1_sha256`を申告しています。5つ以外の署名方式が届いたときは、エラーを返します。
 
 ### 公開鍵で署名を検証する
 

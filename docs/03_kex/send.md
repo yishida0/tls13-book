@@ -173,7 +173,7 @@ $ go run ./cmd
 
 1つ目は`0x16`、handshakeです。中身はServerHelloです。次のページで、このメッセージの構造を詳しく見ていきます。
 
-2つ目は`0x14`、change_cipher_specです。ヘッダを除くと、中身は`0x01`の1バイトだけです。これは、TLS 1.3の通信をTLS 1.2に似せ、古いネットワーク機器との互換性を保つために送られるダミーのレコードです。TLS 1.3では暗号化の切り替えに使われず、受信側は無視します（[RFC 9846 §E.4](https://datatracker.ietf.org/doc/html/rfc9846#appendix-E.4)）。
+2つ目は`0x14`、change_cipher_specです。ヘッダを除くと、中身は`0x01`の1バイトだけです。これは、TLS 1.3の通信をTLS 1.2に似せ、古いネットワーク機器との互換性を保つために送られるダミーのレコードです。TLS 1.3では暗号化の切り替えに使われず、受信側は処理せずに捨てます。受信側が捨てることは[RFC 9846 §5](https://datatracker.ietf.org/doc/html/rfc9846#section-5)が、送信側が送る条件は[RFC 9846 §E.4](https://datatracker.ietf.org/doc/html/rfc9846#appendix-E.4)が定めています。
 
 3つ目は`0x17`、application_dataです。ただし、中身はまだアプリケーションデータではありません。EncryptedExtensions、Certificate、CertificateVerify、Finishedなど、ServerHelloに続くハンドシェイクメッセージが暗号化されて入っています。
 

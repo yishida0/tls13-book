@@ -32,7 +32,7 @@ plaintext, err := aead.Open(dst, nonce, ciphertext, additionalData)
 
 ## 鍵とiv
 
-本書で使うtraffic secretは32バイトですが、AES-128-GCMでは16バイトの鍵と12バイトのivが必要です。そのため、traffic secretをそのまま鍵にはせず、HKDF-Expand-Labelで`[sender]_write_key`と`[sender]_write_iv`を導き出します。
+本書で使うtraffic secretは32バイトの値で、そのままAEADの鍵にはしません。AES-128-GCMには、16バイトの鍵と12バイトのivという、用途の違う2つの値が必要です。そのため、同じtraffic secretから、ラベルを`"key"`と`"iv"`に変えたHKDF-Expand-Labelで、`[sender]_write_key`と`[sender]_write_iv`を導出します。
 
 > ```c
 > [sender]_write_key = HKDF-Expand-Label(Secret, "key", "", key_length)

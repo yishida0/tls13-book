@@ -308,7 +308,7 @@ ServerHelloをパースできても、サーバーが選んだ値をそのまま
 
 ::: danger HelloRetryRequestについて
 
-ServerHelloと同じ形で届くのにServerHelloではない、HelloRetryRequestというメッセージがあります。サーバーは、クライアントが提示した鍵交換方式を扱えないとき、HelloRetryRequestを返してClientHelloの送り直しを求めます。本書のクライアントはHelloRetryRequestに対応していません。HelloRetryRequestの仕組みは[RFC 9846 §4.2.4](https://datatracker.ietf.org/doc/html/rfc9846#section-4.2.4)に定められています。
+ServerHelloと同じ形で届くのにServerHelloではない、HelloRetryRequestというメッセージがあります。サーバーは、クライアントが`supported_groups`に挙げた鍵交換方式の中に使える方式があるのに、その方式の公開鍵が`key_share`に入っていないとき、HelloRetryRequestを返してClientHelloの送り直しを求めます。本書のクライアントは2つの拡張の両方にX25519だけを入れるので、X25519を使えないサーバーは、HelloRetryRequestではなくAlertを返してハンドシェイクを中断します。HelloRetryRequestとAlertを使い分ける条件は[RFC 9846 §4.2.1](https://datatracker.ietf.org/doc/html/rfc9846#section-4.2.1)に定められています。本書のクライアントはHelloRetryRequestに対応していません。HelloRetryRequestの仕組みは[RFC 9846 §4.2.4](https://datatracker.ietf.org/doc/html/rfc9846#section-4.2.4)に定められています。
 
 :::
 

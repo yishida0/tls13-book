@@ -20,7 +20,7 @@ TLSには、ハンドシェイク用の入れ物、アプリケーションデ�
 - TLSPlaintext: 暗号化されていないデータを包むレコード
 - TLSCiphertext: 暗号化されたデータを包むレコード
 
-名前は違いますが、ヘッダの形も長さの決め方も同じで、違うのは中身が平文か暗号文かという点だけです。
+名前は違いますが、ヘッダの形も長さの決め方も同じです。違いは、中身が平文か暗号文かという点と、ヘッダの種別の扱いです。[RFC 9846 §5.2](https://datatracker.ietf.org/doc/html/rfc9846#section-5.2)のとおり、TLSCiphertextではヘッダの種別が常にapplication_data（23）になり、本当の種別は暗号化された中身に入ります。
 バイト列として見れば同じ構造なので、ひとつの読み書きコードで両方を扱えます。
 
 本ページで実装するのはTLSPlaintextです。
@@ -51,7 +51,7 @@ TLSPlaintextの構造は、RFCで次のように定義されています。
 
 図示すると図2のようになります。先頭の`type`、`legacy_record_version`、`length`の5バイトがヘッダで、その後ろに、長さフィールドが示すバイト数の`fragment`が続きます。
 
-`fragment`に何が入っているかは`type`で決まります。ハンドシェイクメッセージを運ぶhandshake、エラーや切断を通知するalert、HTTPなどの上位層のデータを運ぶapplication_data、そしてchange_cipher_specの4種類です。change_cipher_specはTLS 1.2以前との互換のために残されているだけで、TLS 1.3では中身に意味はありません。
+TLSPlaintextでは、`fragment`に何が入っているかは`type`で決まります。ハンドシェイクメッセージを運ぶhandshake、エラーや切断を通知するalert、HTTPなどの上位層のデータを運ぶapplication_data、そしてchange_cipher_specの4種類です。change_cipher_specはTLS 1.2以前との互換のために残されているだけで、TLS 1.3では中身に意味はありません。
 
 レコードは中身を問わない入れ物で、ヘッダを読めば「どのプロトコルのデータが何バイト入っているか」がわかる、という構造です。
 

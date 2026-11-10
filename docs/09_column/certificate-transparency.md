@@ -30,7 +30,7 @@ CTログに登録されていない証明書は、ドメインの持ち主がCT�
 
 Googleは、2015年の不正な発行のあと、Symantecに対して、2016年6月1日以降に発行するすべての証明書をCTに対応させるよう求めました。あわせて、CTに対応していないSymantecの証明書については、Googleの製品で警告が出るなどの問題が起きる可能性があると説明しました[^sleevi2015]。
 
-現在、ChromeとSafariは、SCTのない証明書を受け付けません。Chromeの説明は、次のとおりです。
+現在、ChromeとSafari、デスクトップ版のFirefoxは、パブリック認証局が発行した証明書について、SCTのないものを受け付けません。Chromeの説明は、次のとおりです。
 
 > If a connection is attempted in Chrome and no CT information is provided, then the certificate will be rejected as untrusted, and the connection will be blocked.
 > <br><br>
@@ -38,7 +38,7 @@ Googleは、2015年の不正な発行のあと、Symantecに対して、2016年6
 >
 > 引用元: [Certificate Transparency（Chromium）](https://chromium.googlesource.com/chromium/src/+/main/net/docs/certificate-transparency.md)
 
-Safariも、サーバーの証明書が[AppleのCTのポリシー](https://support.apple.com/en-us/103214)を満たさないと、TLSの接続に失敗します。ブラウザが信頼する認証局のほぼすべては、発行する証明書にSCTを埋め込んでいます。本書のクライアントは、SCTを検証しないので、CTログに登録されていない証明書も受け付けます。
+Safariも、サーバーの証明書が[AppleのCTのポリシー](https://support.apple.com/en-us/103214)を満たさないと、TLSの接続に失敗します。デスクトップ版のFirefoxも、バージョン135から、[MozillaのCTのポリシー](https://wiki.mozilla.org/SecurityEngineering/Certificate_Transparency)を満たさない証明書での接続をエラーにします。ブラウザが信頼する認証局のほぼすべては、発行する証明書にSCTを埋め込んでいます。本書のクライアントは、SCTを検証しないので、CTログに登録されていない証明書も受け付けます。
 
 [^prins2011]: J. R. Prins, "DigiNotar Certificate Authority breach: Operation Black Tulip (Interim Report)", Fox-IT, 2011. [Report](https://www.sec.gov/Archives/edgar/data/1044777/000119312511241796/dex992.htm)
 
