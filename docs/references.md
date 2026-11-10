@@ -122,7 +122,6 @@
 - Netflix, Inc. "Netflix". https://www.netflix.com/, (参照2026-08-15).
 - ByteDance Ltd. "TikTok". https://www.tiktok.com/, (参照2026-08-15).
 - NTTドコモビジネス株式会社. "NTTドコモビジネス". https://www.ntt.com/, (参照2026-08-15).
-- Lumen Technologies, Inc. "Lumen". https://www.lumen.com/, (参照2026-08-15).
 - BBIX株式会社. "BBIX株式会社". https://www.bbix.net/, (参照2026-08-15).
 - インターネットマルチフィード株式会社. "JPNAP". https://www.jpnap.net/, (参照2026-08-15).
 - 株式会社JPIX. "株式会社JPIX". https://www.jpix.ad.jp/, (参照2026-08-15).
@@ -138,3 +137,62 @@
 - Internet Assigned Numbers Authority. "IANA". https://www.iana.org/, (参照2026-08-15).
 - Asia Pacific Network Information Centre. "APNIC". https://www.apnic.net/, (参照2026-08-15).
 - 一般社団法人日本ネットワークインフォメーションセンター. "JPNIC". https://www.nic.ad.jp/, (参照2026-08-15).
+
+## イントロダクションの図（英語版）で使用したロゴ
+
+- Wikimedia Commons. "File:Verizon 2024.svg". https://commons.wikimedia.org/wiki/File:Verizon_2024.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:AT&T logo 2016.svg". https://commons.wikimedia.org/wiki/File:AT%26T_logo_2016.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:T-Mobile logo 2022.svg". https://commons.wikimedia.org/wiki/File:T-Mobile_logo_2022.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Amazon Web Services 2025.svg". https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_2025.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Microsoft Azure.svg". https://commons.wikimedia.org/wiki/File:Microsoft_Azure.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Google Cloud logo.svg". https://commons.wikimedia.org/wiki/File:Google_Cloud_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Oracle logo.svg". https://commons.wikimedia.org/wiki/File:Oracle_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Google 2015 logo.svg". https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Meta Platforms Inc. logo.svg". https://commons.wikimedia.org/wiki/File:Meta_Platforms_Inc._logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Netflix 2015 logo.svg". https://commons.wikimedia.org/wiki/File:Netflix_2015_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:YouTube Logo 2017.svg". https://commons.wikimedia.org/wiki/File:YouTube_Logo_2017.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Equinix logo.svg". https://commons.wikimedia.org/wiki/File:Equinix_logo.svg, (参照2026-11-10).
+- Wikipedia. "File:CoreSite logo.png". https://en.wikipedia.org/wiki/File:CoreSite_logo.png, (参照2026-11-10).
+- Wikipedia. "File:Seattle Internet Exchange (logo).png". https://en.wikipedia.org/wiki/File:Seattle_Internet_Exchange_(logo).png, (参照2026-11-10).
+- Wikimedia Commons. "File:Akamai-2025.svg". https://commons.wikimedia.org/wiki/File:Akamai-2025.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Cloudflare Logo.svg". https://commons.wikimedia.org/wiki/File:Cloudflare_Logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Fastly logo.svg". https://commons.wikimedia.org/wiki/File:Fastly_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Lumen Technologies logo.svg". https://commons.wikimedia.org/wiki/File:Lumen_Technologies_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Cogent Communications logo.svg". https://commons.wikimedia.org/wiki/File:Cogent_Communications_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Zayo Group logo.svg". https://commons.wikimedia.org/wiki/File:Zayo_Group_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Comcast.svg". https://commons.wikimedia.org/wiki/File:Comcast.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Charter Communications Logo.svg". https://commons.wikimedia.org/wiki/File:Charter_Communications_Logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Cox Communications Logo.svg". https://commons.wikimedia.org/wiki/File:Cox_Communications_Logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Starlink Logo.svg". https://commons.wikimedia.org/wiki/File:Starlink_Logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Viasat logo.svg". https://commons.wikimedia.org/wiki/File:Viasat_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Xfinity logo 2021.svg". https://commons.wikimedia.org/wiki/File:Xfinity_logo_2021.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Spectrum Logo.svg". https://commons.wikimedia.org/wiki/File:Spectrum_Logo.svg, (参照2026-11-10).
+- Wikipedia. "File:Internet2 logo.svg". https://en.wikipedia.org/wiki/File:Internet2_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:New ESnet greater wordmark.png". https://commons.wikimedia.org/wiki/File:New_ESnet_greater_wordmark.png, (参照2026-11-10).
+- Wikimedia Commons. "File:Iana-logo-homepage.svg". https://commons.wikimedia.org/wiki/File:Iana-logo-homepage.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Icann logo.svg". https://commons.wikimedia.org/wiki/File:Icann_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:ARIN logo 2026.svg". https://commons.wikimedia.org/wiki/File:ARIN_logo_2026.svg, (参照2026-11-10).
+
+## イントロダクションの図（中国語版）で使用したロゴ
+
+- Wikipedia. "File:China Mobile logo (2019).svg". https://en.wikipedia.org/wiki/File:China_Mobile_logo_(2019).svg, (参照2026-11-10).
+- Wikipedia. "File:China Unicom logo (2022).svg". https://en.wikipedia.org/wiki/File:China_Unicom_logo_(2022).svg, (参照2026-11-10).
+- Wikipedia. "File:China Telecom Logo.svg". https://en.wikipedia.org/wiki/File:China_Telecom_Logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:AlibabaCloudLogo.svg". https://commons.wikimedia.org/wiki/File:AlibabaCloudLogo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Tencent Cloud Logo.svg". https://commons.wikimedia.org/wiki/File:Tencent_Cloud_Logo.svg, (参照2026-11-10).
+- 华为云计算技术有限公司. "华为云". https://www.huaweicloud.com/, (参照2026-11-10).
+- Wikimedia Commons. "File:Tencent Logo.svg". https://commons.wikimedia.org/wiki/File:Tencent_Logo.svg, (参照2026-11-10).
+- Wikipedia. "File:Baidu.svg". https://en.wikipedia.org/wiki/File:Baidu.svg, (参照2026-11-10).
+- Wikipedia. "File:Sina Weibo.svg". https://en.wikipedia.org/wiki/File:Sina_Weibo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Douyin wordmark.svg". https://commons.wikimedia.org/wiki/File:Douyin_wordmark.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:Bilibili 2023.svg". https://commons.wikimedia.org/wiki/File:Bilibili_2023.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:IQIYI logo (2022).svg". https://commons.wikimedia.org/wiki/File:IQIYI_logo_(2022).svg, (参照2026-11-10).
+- 中国教育和科研计算机网. "CERNET". https://www.edu.cn/, (参照2026-11-10).
+- 中国科学院计算机网络信息中心. "中国科技网". https://www.cstnet.cn/, (参照2026-11-10).
+- Wikipedia. "File:Wangsu Science & Technology logo.png". https://en.wikipedia.org/wiki/File:Wangsu_Science_%26_Technology_logo.png, (参照2026-11-10).
+- 中国卫通集团股份有限公司. "中国卫通". http://www.chinasatcom.com/, (参照2026-11-10).
+- 北京歌华传媒集团有限责任公司. "歌华传媒集团". https://www.gehua.com/, (参照2026-11-10).
+- Wikipedia. "File:东方有线.gif". https://zh.wikipedia.org/wiki/File:%E4%B8%9C%E6%96%B9%E6%9C%89%E7%BA%BF.gif, (参照2026-11-10).
+- Wikimedia Commons. "File:Iana-logo-homepage.svg". https://commons.wikimedia.org/wiki/File:Iana-logo-homepage.svg, (参照2026-11-10).
+- Wikipedia. "File:APNIC logo.svg". https://en.wikipedia.org/wiki/File:APNIC_logo.svg, (参照2026-11-10).
+- Wikimedia Commons. "File:China Internet Network Information Center logo.svg". https://commons.wikimedia.org/wiki/File:China_Internet_Network_Information_Center_logo.svg, (参照2026-11-10).
