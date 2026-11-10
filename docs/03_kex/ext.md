@@ -32,7 +32,7 @@
 
 種別と中身を持つだけの構造です。`extension_data<0..2^16-1>`はLengthを2バイトで前置する可変長データを表すので、バイト列にすると「種別2バイト + Length2バイト + 中身」になります。`Marshal`はその通りに組み立てます。
 
-`extension_data`の中身の構造は、拡張ごとに別のRFCで決まっています。図1は、本ページで実装する`server_name`拡張を例に、ClientHelloに入る20バイトを並べたものです。先頭の4バイトはどの拡張でも同じ形で、`extension_data`の中に`server_name`拡張の構造が入ります。`extension_data`の中にも長さのフィールドがあり、長さで包む形が入れ子になっています。
+`extension_data`の中身の構造は、拡張ごとに決まっています。本書が使う5つの拡張のうち、`server_name`は[RFC 6066 §3](https://datatracker.ietf.org/doc/html/rfc6066#section-3)が、残りの4つは[RFC 9846 §4.3](https://datatracker.ietf.org/doc/html/rfc9846#section-4.3)の各節が定義しています。図1は、本ページで実装する`server_name`拡張を例に、ClientHelloに入る20バイトを並べたものです。先頭の4バイトはどの拡張でも同じ形で、`extension_data`の中に`server_name`拡張の構造が入ります。`extension_data`の中にも長さのフィールドがあり、長さで包む形が入れ子になっています。
 
 ![server_name拡張の20バイトと3つの長さの入れ子](./img/6.svg)
 
@@ -95,8 +95,7 @@ func (e Extension) Marshal() []byte {
 
 これで前のページのコンパイルエラーが解消されます。
 
-残りは`extension_data`の中身を作る関数です。中身の構造は拡張ごとにRFCで別々に定義されています。
-1つずつ拡張の役割と定義を見ながら書いていきます。
+残りは`extension_data`の中身を作る関数です。拡張の役割と定義を1つずつ確認しながら書きます。
 
 ### supported_versions
 

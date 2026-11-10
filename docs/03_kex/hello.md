@@ -65,7 +65,7 @@ ClientHelloの6つのフィールドに当てはめると、長さが入るの�
 | フィールド | 役割 | 本書で入れる値 |
 |---|---|---|
 | `legacy_version` | TLS 1.2以前のバージョン交渉用。高いバージョン番号を拒否するサーバーに当たらないよう固定値を置く。真のバージョン交渉は`supported_versions`拡張が担う | `0x0303`（TLS 1.2） |
-| `random` | 接続ごとに変わる32バイトの乱数。ハンドシェイク全体のハッシュの先頭に入り、以降の鍵導出と署名検証の入力になる | `crypto/rand`で生成 |
+| `random` | 接続ごとに変わる32バイトの乱数。Transcript Hashを通じて鍵導出と署名の対象に入り、過去のやり取りの使い回しを防ぐ | `crypto/rand`で生成 |
 | `legacy_session_id` | TLS 1.2のセッション再開に使っていた識別子。TLS 1.3では再開がPSKに統合され、このフィールドに役目はない | 長さ0（互換モードを使わない） |
 | `cipher_suites` | レコード保護のアルゴリズムと、HKDFで使うハッシュ関数を優先度の高い順に並べる | `TLS_AES_128_GCM_SHA256`のみ |
 | `legacy_compression_methods` | TLS 1.2以前の圧縮方式の一覧。TLS 1.3では圧縮そのものが廃止された | `{0}`（null圧縮） |
@@ -86,7 +86,7 @@ TLS 1.3は、バージョン交渉を`supported_versions`拡張に移し、セ�
 ### 定数を足す
 
 構造体を書く前に、`cipher_suites`の型になる定数を`common.go`に追加します。番号は[IANAのレジストリ](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml)で管理されています。
-本書ではGoの標準パッケージとして用意されている`TLS_AES_128_GCM_SHA256`のみを使うので、これだけ定義しておきます。
+本書では`TLS_AES_128_GCM_SHA256`だけを使うので、定数も1つだけ定義します。`TLS_AES_128_GCM_SHA256`は[RFC 9846 §9.1](https://datatracker.ietf.org/doc/html/rfc9846#section-9.1)が実装必須とする暗号スイートで、必要なAES-GCMとSHA-256はGoの標準パッケージにあります。
 
 ::: code-group
 
