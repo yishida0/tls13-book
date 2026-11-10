@@ -207,7 +207,10 @@ export default withMermaid(
         {
           text: "付録",
           collapsed: false,
-          items: [{ text: "参考文献", link: "/references" }],
+          items: [
+            { text: "参考文献", link: "/references" },
+            { text: "更新履歴", link: "/changelog" },
+          ],
         },
       ],
 

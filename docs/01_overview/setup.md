@@ -4,7 +4,7 @@
 
 ## Goのインストール
 
-Go 1.25以上が必要です。以下のコマンドでインストールできます。パッケージマネージャーを使わない場合は、[公式のインストール手順](https://go.dev/doc/install)に従ってインストーラを利用します。
+Go 1.24以上で動きます。本書では、セキュリティの修正が入ったGo 1.27.3を使います。以下のコマンドでインストールできます。パッケージマネージャーを使わない場合は、[公式のインストール手順](https://go.dev/doc/install)に従ってインストーラを利用します。
 
 ::: code-group
 
@@ -17,9 +17,9 @@ brew install go
 ```
 
 ```sh [Linux]
-curl -LO https://go.dev/dl/go1.25.0.linux-amd64.tar.gz
+curl -LO https://go.dev/dl/go1.27.3.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go
-sudo tar -C /usr/local -xzf go1.25.0.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.27.3.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
 source $HOME/.profile
 ```
@@ -28,11 +28,11 @@ source $HOME/.profile
 
 ## バージョン確認
 
-ターミナル（WindowsはPowerShell）で以下を実行し、`go1.25`以上が表示されれば準備完了です。
+ターミナル（WindowsはPowerShell）で以下を実行し、`go1.24`以上が表示されれば準備完了です。
 
 ```sh
 $ go version
-go version go1.25.0 darwin/arm64
+go version go1.27.3 darwin/arm64
 ```
 
 ## プロジェクトの作成
